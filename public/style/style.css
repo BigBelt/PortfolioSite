@@ -2,6 +2,8 @@ body {
     background-image: url("../assets/imgs/background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    color: #000;
+    background-color: #000;
 }
 
 h1 {
