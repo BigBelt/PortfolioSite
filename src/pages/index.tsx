@@ -25,7 +25,7 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold">First Steps →</h3>
               <div className="text-lg">
-                Why does bigbelt smell like beef.
+                Why does bigbelt smell like beef. Its crazy how much.
               </div>
             </Link>
             <Link
