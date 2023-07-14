@@ -1,5 +1,6 @@
 import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
+export const runtime = 'edge';
 
 export const exampleRouter = createTRPCRouter({
   hello: publicProcedure
