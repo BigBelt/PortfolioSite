@@ -55,7 +55,7 @@ export type Context = inferAsyncReturnType<typeof createTRPCContext>;
  * errors on the backend.
  */
 
-const t = initTRPC.context<typeof createTRPCContext>().create({
+const t = initTRPC.context<Context>().create({
   transformer: superjson,
   errorFormatter({ shape, error }) {
     return {
