@@ -1,9 +1,14 @@
 import Head from "next/head";
+//import { Client } from 'appwrite';
 //import Link from "next/link";
-import { api } from "~/utils/api";
+
+// const client = new Client();
+
+// client
+//     .setEndpoint('https://cloud.appwrite.io/v1')
+//     .setProject('64b4936c3134104fc96e');
 
 export default function Home() {
-  const hello = api.example.hello.useQuery({ text: "♥️ from The Naberus Games Team" });
 
   return (
     <>
@@ -24,7 +29,7 @@ export default function Home() {
             <span className="text-[hsl(300,100%,70%)]">Coming Soon</span>
           </h1>
           <p className="text-2xl text-white">
-            {hello.data ? hello.data.greeting : "Loading Bigbelt smells..."}
+            Being made with ♥️ from The Naberus Games Team
           </p>
         </div>
       </main>
