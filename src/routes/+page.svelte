@@ -3,12 +3,11 @@
       <h1 class="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
         <span class="text-[hsl(280,100%,70%)]">Naberus Games</span>
       </h1>
-      <h2>This is a test to see how this works</h2> 
       <h1 class="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
         <span class="text-[hsl(300,100%,70%)]">Coming Soon</span>
       </h1>
       <p class="text-2xl text-white">
-        Being made with ♥️  from The Naberus Games Team!
+        Being made with <span class="text-red">♥️</span> from The Naberus Games Team!
       </p>
     </div>
   </main>
