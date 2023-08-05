@@ -7,7 +7,7 @@
         <span class="text-[hsl(300,100%,70%)]">Coming Soon</span>
       </h1>
       <p class="text-2xl text-white">
-        Being made with <span class="text-red">♥️</span> from The Naberus Games Team!
+        Being made with <span class="text-red">♥️</span> from The Naberus Games Team! and <a href="https://svelte.dev" class="text-[hsl(300,100%,70%)]">Svelte</a>
       </p>
     </div>
   </main>
